@@ -1,3 +1,48 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header {
+  background-color: #20232a;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: #20232a;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+.hint {
+  font-size: 18px;
+  color: #61dafb;
+  margin-top: 10px;
+}
 .timer {
   font-size: 18px;
   color: #ffcc00;
